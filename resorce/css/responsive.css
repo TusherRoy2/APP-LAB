@@ -1,0 +1,317 @@
+@media (max-width:1200px) {
+    html {
+        font-size: 60.5%
+    }
+    .ufImg img {
+        width: 58.5rem
+    }
+    .ufText h3 {
+        width: 47%;
+        margin-bottom: 2rem
+    }
+    .ufText p {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #616368;
+        width: 47%;
+        margin-bottom: 5rem
+    }
+    .DownlodeApp #footerImg {
+        width: 57rem;
+        height: auto;
+        margin: auto
+    }
+}
+
+@media (max-width:1100px) {
+    html {
+        font-size: 55.5%
+    }
+    .whyYouText h3 {
+        width: 80%
+    }
+}
+
+@media (max-width:991px) {
+    html {
+        font-size: 52.5%
+    }
+    header>img {
+        height: 114rem;
+        width: 100%
+    }
+    .head-text,
+    nav .menu ul li {
+        margin-bottom: 2rem
+    }
+    .MeetClient,
+    nav {
+        width: 90%;
+        margin: auto
+    }
+    nav .menu {
+        width: 100%;
+        height: 100vh;
+        display: none;
+        background: #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 11
+    }
+    nav .menu ul {
+        display: block;
+        text-align: center
+    }
+    nav .menu ul li:first-child {
+        margin-top: 12rem
+    }
+    nav .menu ul li a {
+        color: #fff;
+        font-size: 2.5rem
+    }
+    nav .menu button {
+        font-size: 2.5rem;
+        background: #2500f9e0;
+        -webkit-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s
+    }
+    nav .menu button:hover {
+        background: #fff;
+        color: #2500f9e0
+    }
+    nav .menu-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 2rem;
+        color: #242f51
+    }
+    nav .menu-icon .fa-times {
+        color: #fff;
+        position: relative;
+        z-index: 11;
+        display: none
+    }
+    nav .menu-icon .fa-times:hover {
+        color: red
+    }
+    .awesome-app .trusted img {
+        margin: 0 auto 5rem
+    }
+    .smart-jackpots h2::after {
+        content: '';
+        display: block;
+        width: 70.5rem;
+        height: .2rem;
+        background: #b9b9b8;
+        position: absolute;
+        top: 150%;
+        left: -14rem;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin: auto
+    }
+    .sjItem {
+        display: block
+    }
+    .sjTextImg img {
+        margin: 5rem 0 3rem
+    }
+    .sjTextImg span {
+        margin-bottom: 3rem
+    }
+    .DesignedBuilt {
+        margin-top: 10rem
+    }
+    .DesignedBuilt h2 {
+        margin: 0 0 2.5rem
+    }
+    hr {
+        margin: 7rem 0
+    }
+    .whyYouText p {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #616368;
+        width: 90%;
+        margin: 0 auto 8.5rem
+    }
+    .ufImg img {
+        width: 66.5rem;
+        height: auto;
+        margin: auto;
+        position: absolute;
+        top: 10rem
+    }
+    .ufButton button {
+        margin-bottom: 75rem;
+        text-align: center
+    }
+    .FAQ-Text p {
+        width: 90%
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 50.5%
+    }
+    .smart-jackpots h2::after {
+        width: 50.5rem
+    }
+    .UltimateFeatures {
+        width: 90%;
+        margin: auto
+    }
+    .ufText h3,
+    .ufText p {
+        width: 100%
+    }
+    .ufTextImg {
+        text-align: center
+    }
+    .ufTextImg img {
+        width: 9rem;
+        height: 9rem;
+        margin: 0 auto 2rem
+    }
+    .GetAwesome {
+        width: 90%;
+        margin: 0 auto 10rem
+    }
+    .gtText h3 {
+        width: 100%;
+        margin: 8rem auto 2rem
+    }
+    .gtText p {
+        width: 100%;
+        margin: 0 auto 5rem
+    }
+}
+
+@media (max-width:680px) {
+    html {
+        font-size: 48.5%
+    }
+    nav .menu-icon .fas {
+        font-size: 1.8rem
+    }
+}
+
+@media (max-width:580px) {
+    html {
+        font-size: 46.5%
+    }
+    .head-text,
+    .smart-jackpots {
+        width: 90%;
+        margin: auto
+    }
+    .awesome-features {
+        width: 90%;
+        margin: 0 auto 10rem
+    }
+    .ufImg img {
+        width: 57.5rem
+    }
+    .gtText h3 {
+        margin: 4rem auto 2rem
+    }
+    .mcImg img {
+        width: 100%
+    }
+}
+
+@media (max-width:532px) {
+    .businessClass,
+    .proMaster {
+        height: 50rem
+    }
+    .businessClass h2,
+    .proMaster h2 {
+        font-size: 4.5rem
+    }
+    .bcTopPart,
+    .proTopPart {
+        background-color: #f4f7f9;
+        padding: 6rem 2rem 2.5rem
+    }
+}
+
+@media (max-width:480px) {
+    html {
+        font-size: 42.5%
+    }
+    .awesome-app .trusted p {
+        font-size: 2rem
+    }
+    .smart-jackpots h2::after {
+        content: '';
+        display: block;
+        width: 45.5rem;
+        height: .2rem;
+        background: #b9b9b8;
+        position: absolute;
+        top: 150%;
+        left: -10rem;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin: auto
+    }
+    .DesignedBuilt img {
+        width: 46.9rem;
+        height: auto;
+        margin: 0 auto 7rem
+    }
+    .ufImg img {
+        width: 49.5rem
+    }
+    .gtText h3 {
+        margin: 0 auto 2rem
+    }
+    .DownlodeApp #footerImg {
+        width: 46rem;
+        height: auto;
+        margin: 5rem auto 1rem
+    }
+}
+
+@media (max-width:380px) {
+    html {
+        font-size: 37.5%
+    }
+    nav .menu-icon .fas {
+        font-size: 2.2rem
+    }
+    .DesignedBuilt img {
+        width: 47.9rem
+    }
+    .ufButton button {
+        margin-bottom: 75rem;
+        text-align: center
+    }
+    .ufImg img {
+        width: 47.5rem
+    }
+    .mcImg img {
+        width: 46rem;
+        height: auto;
+        margin: 0 auto 5rem
+    }
+}
+
+@media (max-width:320px) {
+    html {
+        font-size: 35.5%
+    }
+}

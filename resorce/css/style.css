@@ -1,0 +1,827 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+header,
+img {
+    height: auto
+}
+
+.head-text button,
+nav .menu ul li {
+    margin-right: 2rem
+}
+
+body,
+header>img,
+hr,
+img {
+    width: 100%
+}
+
+.QueAns,
+.mcRCPhotoText,
+.smart-jackpots h2,
+.ufImg {
+    position: relative
+}
+
+.DownlodeApp,
+.MeetClient,
+.footer,
+header {
+    max-width: 180rem
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+img {
+    display: block
+}
+
+header {
+    padding: 4rem 0 17rem;
+    margin: auto
+}
+
+header>img {
+    height: 100vh;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    z-index: -1
+}
+
+.category .cItem,
+.sjItem,
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.gtPackageText,
+.gtSwicthButton,
+nav .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+nav .logo {
+    width: 12rem;
+    height: 4rem
+}
+
+nav .menu ul {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+nav .menu ul li a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #242f51
+}
+
+.DesignedBuilt button,
+nav .menu ul .mBtn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    background: #2500f9;
+    border-radius: 5rem;
+    padding: 1rem 2.5rem;
+    border: none
+}
+
+nav .menu-icon {
+    display: none
+}
+
+.head-text {
+    padding-top: 17.5rem
+}
+
+.head-text .verified {
+    position: relative;
+    background: #e1eaed;
+    width: 33.4rem;
+    border-radius: 2rem
+}
+
+.head-text .verified img {
+    width: 4rem;
+    height: 3.5rem;
+    position: absolute
+}
+
+.head-text .verified p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #242f51;
+    text-align: right;
+    padding: .4rem 1.5rem
+}
+
+.FAQ-Text h3,
+.FAQ-Text p,
+.GetAwesome,
+.footer,
+.whyYouText,
+.wyTextImg {
+    text-align: center
+}
+
+.head-text h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    color: #242f51
+}
+
+.head-text>p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #616368;
+    margin-bottom: 3rem
+}
+
+.head-text button {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    background: #2500f9;
+    border-radius: 5rem;
+    padding: 1rem 2.5rem;
+    border: none
+}
+
+.head-text a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2500f9
+}
+
+.head-phn img {
+    width: 30.6rem;
+    height: auto;
+    margin: auto
+}
+
+.awesome-app .trusted p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #242f51;
+    margin-bottom: 2.5rem;
+    text-align: center
+}
+
+.awesome-app .trusted img {
+    width: 10.4rem;
+    height: auto;
+    margin: 0 auto 17rem
+}
+
+.FAQ,
+.awesome-features,
+.why-you {
+    margin-bottom: 10rem
+}
+
+.awesome-features img {
+    width: 50rem;
+    height: auto;
+    margin: auto
+}
+
+.awesome-features h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #242f51;
+    width: 80%
+}
+
+.awesome-features p,
+.bcBottomPart p,
+.bcTopPart p,
+.bcTopPart span,
+.category .cText span,
+.proBottomPart p,
+.proTopPart p,
+.proTopPart span,
+.smart-jackpots p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368
+}
+
+.awesome-features p {
+    width: 80%
+}
+
+.category .cImg img {
+    width: 9rem;
+    height: 9rem;
+    margin: 3.5rem 2.5rem 3rem 0
+}
+
+.category .cText #cFast {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f55767
+}
+
+.category .cText #cProto {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2563ff
+}
+
+.category .cText #cVector {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #40975f
+}
+
+.smart-jackpots h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 10rem
+}
+
+.smart-jackpots h2::after {
+    content: '';
+    display: block;
+    width: .2rem;
+    height: 10.5rem;
+    background: #b9b9b8;
+    position: absolute;
+    top: 50%;
+    right: -7rem;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.sjTextImg img {
+    width: 9rem;
+    height: auto;
+    margin-bottom: 3rem
+}
+
+.sjTextImg #sjAutomatic {
+    color: #f55767;
+    font-size: 2rem;
+    font-weight: 600
+}
+
+.sjTextImg #sjNetwork {
+    color: #2563ff;
+    font-size: 2rem;
+    font-weight: 600
+}
+
+.sjTextImg #sjBigger {
+    color: #40975f;
+    font-size: 2rem;
+    font-weight: 600
+}
+
+.sjTextImg span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368;
+    display: block;
+    margin-bottom: 10rem;
+    width: 80%
+}
+
+.DesignedBuilt,
+.FAQ-QueAns {
+    width: 90%;
+    margin: auto
+}
+
+.DesignedBuilt img {
+    width: 50.9rem;
+    height: auto;
+    margin: 0 auto 7rem
+}
+
+.DesignedBuilt h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #242f51;
+    margin: 10.3rem 0 2.5rem;
+    width: 90%
+}
+
+.DesignedBuilt p,
+.MeetClient p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368;
+    margin-bottom: 2.5rem
+}
+
+hr {
+    display: block;
+    height: .1rem;
+    background: #f4f4f4;
+    margin-bottom: 14rem
+}
+
+.whyYouText h3 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #242f51;
+    width: 40%;
+    margin: 0 auto 3rem
+}
+
+.whyYouText p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368;
+    width: 59.5%;
+    margin: 0 auto 8.5rem
+}
+
+.wyTextImg img {
+    width: 9rem;
+    height: auto;
+    margin: 0 auto 3.5rem
+}
+
+.bcTopPart h5,
+.proTopPart h5,
+.ufTextImg p,
+.wyTextImg p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #242f51
+}
+
+.wyTextImg span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368;
+    display: block;
+    width: 80%;
+    margin: 0 auto 7rem
+}
+
+.UltimateFeatures {
+    margin-bottom: 10.5rem
+}
+
+.ufText h3 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #242f51;
+    width: 30%;
+    margin-bottom: 2rem
+}
+
+.ufText p,
+.ufTextImg span {
+    font-weight: 400;
+    color: #616368;
+    font-size: 1.6rem
+}
+
+.ufText p {
+    width: 40%;
+    margin-bottom: 5rem
+}
+
+.ufTextImg img {
+    width: 9rem;
+    height: 9rem;
+    margin-bottom: 3rem
+}
+
+.ufTextImg span {
+    margin-bottom: 6rem;
+    display: block
+}
+
+.ufImg img {
+    width: 64.5rem;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: -17rem
+}
+
+.ufButton button {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    background: #2500f9;
+    border-radius: 5rem;
+    padding: 1rem 4rem;
+    border: none
+}
+
+.GetAwesome {
+    margin-bottom: 10rem
+}
+
+.gtText h3 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #242f51;
+    width: 55%;
+    margin: 0 auto 2rem
+}
+
+.gtText p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368;
+    width: 58%;
+    margin: 0 auto 5rem
+}
+
+.gtSwicthButton {
+    width: 28rem;
+    height: 5.5rem;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    border-radius: 5rem;
+    border: 1px solid #b6b6b4;
+    margin: 0 auto 4rem;
+    padding: .5rem 0
+}
+
+.gtSwicthButton button {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #616368;
+    border-radius: 5rem;
+    padding: 1rem 3rem;
+    border: none;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s
+}
+
+.gtSwicthButton .active {
+    background-color: #2500f9 !important;
+    color: #fff
+}
+
+.gtPackageText {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5rem
+}
+
+.businessClass,
+.proMaster {
+    border: none;
+    border-radius: .8rem;
+    -webkit-box-shadow: 0 0 2px #b6b6b4;
+    box-shadow: 0 0 2px #b6b6b4;
+    overflow: hidden;
+    width: auto;
+    height: 47rem;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.bcTopPart,
+.proTopPart {
+    background-color: #f4f7f9;
+    padding: 6rem 5rem 2.5rem
+}
+
+.bcTopPart h2,
+.proTopPart h2 {
+    font-size: 6rem;
+    font-weight: 600;
+    color: #242f51;
+    display: inline-block
+}
+
+.bcBottomPart,
+.proBottomPart {
+    background: #fff;
+    padding: 3.5rem 0 3rem
+}
+
+.bcBottomPart button,
+.proBottomPart button {
+    font-size: 1.6rem;
+    font-weight: 700;
+    background: #2500f9;
+    color: #fff;
+    border-radius: 5rem;
+    padding: 1rem 3rem;
+    border: none
+}
+
+.proBottomPart a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2500f9;
+    display: block;
+    margin-top: 3rem
+}
+
+.MeetClient h3,
+.MeetClient h5 {
+    font-weight: 600;
+    color: #242f51
+}
+
+.MeetClient {
+    width: 100%;
+    margin: auto
+}
+
+.mcImg{
+    width: 95%;
+    margin: auto;
+}
+
+.mcImg img {
+    width: 62rem;
+    height: auto;
+    margin: 0 auto 5rem
+}
+
+.MeetClient h3,
+.mcReviewText .mcStar {
+    margin-bottom: 2rem
+}
+
+.MeetClient h3 {
+    font-size: 4rem
+}
+
+.mcReviewText .mcStar i {
+    font-size: 1.6rem;
+    color: #f7c600
+}
+
+.MeetClient h5 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem
+}
+
+.MeetClient span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368;
+    margin-bottom: 4rem;
+    display: block
+}
+
+.mcReviewClient {
+    width: 60%
+}
+
+.mcRCPhotoText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.mcRCPhotoText img {
+    width: 9rem !important;
+    height: 9rem !important;
+    margin-right: 3rem
+}
+
+.mcRCPhotoText p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #242f51;
+    margin: 4rem 0 0
+}
+
+.mcRCPhotoText span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #616368;
+    display: block
+}
+
+.owl-nav .owl-next i,
+.owl-nav .owl-prev i {
+    color: #dee1e6;
+    font-size: 1.3rem;
+    border: 1px solid #dee1e6;
+    border-radius: 50%;
+    padding: 1rem
+}
+
+.owl-nav .owl-prev i {
+    position: absolute;
+    top: 22%;
+    right: -55%
+}
+
+.owl-nav .owl-next i:active,
+.owl-nav .owl-prev i:active {
+    color: #2500f9;
+    background: #eff3f8
+}
+
+.owl-nav .owl-next::after {
+    content: '';
+    display: block;
+    background: #dee1e6;
+    width: .1rem;
+    height: 2.6rem;
+    position: absolute;
+    top: 24%;
+    right: -42%
+}
+
+.owl-nav .owl-next i {
+    position: absolute;
+    top: 22%;
+    right: -39%
+}
+
+.FAQ-Text h3 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 3rem
+}
+
+.FAQ-Text p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368;
+    width: 70%;
+    margin: 0 auto 6rem
+}
+
+.appleStore img,
+.playStore img {
+    width: 18.5rem;
+    height: auto
+}
+
+.QueAns {
+    margin-bottom: 1rem;
+    background: #f5f7fa;
+    padding: 2rem
+}
+
+.QueAns .fa-plus {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 1.5rem
+}
+
+.QueAns h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 0
+}
+
+.QueAns p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #616368;
+    display: none
+}
+
+.appDownlodeBtn,
+.fMenu ul {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+hr#FAQ {
+    margin-bottom: 5rem !important
+}
+
+.DownlodeApp {
+    width: 90%;
+    margin-left: 7%
+}
+
+.DownlodeApp h3 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: #242f51;
+    margin: 5rem 0 3.5rem
+}
+
+.DownlodeApp p,
+.fMenu ul li a {
+    font-size: 1.6rem;
+    font-weight: 400
+}
+
+.DownlodeApp p {
+    color: #616368;
+    margin-bottom: 3.5rem
+}
+
+.appDownlodeBtn {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 6rem
+}
+
+.playStore img {
+    margin-right: 2.5rem
+}
+
+.DownlodeApp #footerImg {
+    width: 65rem;
+    height: auto;
+    margin: auto
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    background: #09132d;
+    padding: 10rem 0
+}
+
+.fLogo img {
+    width: 15rem;
+    margin: 0 auto 5rem
+}
+
+.fMenu {
+    margin-bottom: 5rem
+}
+
+.fMenu ul {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.fMenu ul li a {
+    color: #fff;
+    margin-right: 3rem
+}
+
+.fLink img {
+    width: 12.5rem;
+    margin: auto
+}
